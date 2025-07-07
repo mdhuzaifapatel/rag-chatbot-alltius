@@ -79,8 +79,14 @@ SAMBANOVA_API_KEY=your_sambanova_api_key_here
 ---
 
 ## ▶️ Running the Application
+### 1. Create an index
+```bash
+cd backend
+python build_index.py
+```
+This will create an index (vectorstore)
 
-### 1. Start the FastAPI backend
+### 2. Start the FastAPI backend
 
 ```bash
 cd backend
@@ -91,7 +97,7 @@ Backend will run on: [http://localhost:8000](http://localhost:8000)
 
 ---
 
-### 2. In a new terminal, start the Streamlit frontend
+### 3. In a new terminal, start the Streamlit frontend
 
 ```bash
 streamlit run frontend/streamlit_app.py
