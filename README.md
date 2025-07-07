@@ -1,5 +1,5 @@
 
-# 🧠 RAG Chatbot – Insurance Document Assistant
+# 🧠 RAG Chatbot 
 
 ---
 
